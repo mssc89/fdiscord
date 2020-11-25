@@ -7,3 +7,15 @@ It's more of a wrapper of [Sleepy Discord](https://github.com/yourWaifu/sleepy-d
 
 # Why
 Because, Fortran is fun and fast language, which needs some attention. Also, I was just bored.
+
+# Build
+Add build folder
+``mkdir build && cd build``
+
+Run CMake
+``cmake ..``
+
+Run Make
+``make``
+
+It should generate `fdiscord.mod` file ready to be imported into Fortran program.
